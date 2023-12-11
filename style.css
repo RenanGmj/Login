@@ -1,0 +1,108 @@
+.container{
+    background: radial-gradient(68.44% 67.52% at 55.15% 32.68%, rgba(229, 76, 145, 0.39) 0%, rgba(244, 139, 123, 0.24) 100%, #F48B7B 100%);
+    grid-template-columns: 50%, 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 10fr));
+    grid-gap: 100px;
+
+    
+
+}
+
+.container_banner{
+    width: 587px;
+    height: 1117px;
+    border-radius: 49.62px;
+    background: linear-gradient(180deg, #E54C91 0%, #F48B7B 49.6%, #F7AD50 100%);
+
+}
+
+.frase{
+    width: 731px;
+    height: 60px;
+    margin-left: 350px;
+    margin-top: 57px;
+    flex-shrink: 0;
+    color: #000;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
+
+.colorido{
+    background: linear-gradient(94deg, #F7AD50 57.37%, #EB4335 90.7%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 1.68px;
+}
+
+.opcional{
+    width: 250px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 3px solid #162231;
+    background: rgba(217, 217, 217, 0.00);
+    margin-top: 240px;
+    margin-left: 278px;
+    margin-right: 226px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    margin-left: 7px;
+}
+
+.link_google{
+    color: #000;
+    font-size: 174px;
+    height: 44px;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-decoration: none;
+    padding-left: 21px;
+
+    
+    }
+
+.logo_facebook{
+    width: 51px;
+    height: 81px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    margin-left: 3px;
+    }
+
+.link_facebook{
+    color: #000;
+    height: 44px;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    text-decoration: none;
+    padding-left: 12px;
+
+
+    }
